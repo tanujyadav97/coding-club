@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codingclub.tanujyadav.codingclub.AboutrealFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imvvv"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+
+            android:layout_weight="1"
+android:layout_marginLeft="@dimen/feed_item_padding_bottom"
+android:layout_marginBottom="@dimen/feed_item_padding_bottom"
+            android:layout_marginRight="@dimen/feed_item_padding_bottom"
+       />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingRight="@dimen/feed_item_padding_bottom"
+            android:paddingLeft="@dimen/feed_item_padding_bottom"
+            android:paddingBottom="@dimen/feed_item_padding_bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/aboutus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="@dimen/ap2"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:background="@drawable/back">
+                <TextView
+                    android:id="@+id/devby"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_developed_by"
+                    android:textStyle="bold"
+                    android:textColor="@color/errorColor"
+                    android:textSize="@dimen/far1"
+                    android:shadowColor="#f29373"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="5"
+                    android:textAlignment="center"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/far2"
+                        android:layout_height="@dimen/far2"
+                        android:src="@drawable/devby"
+                        android:paddingLeft="@dimen/feed_item_padding_bottom"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tanuj_yadav"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/far1"
+                        android:paddingTop="@dimen/far3"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tanujyadav171997_gmail_com"
+                            android:textSize="@dimen/far4"
+                            android:paddingBottom="@dimen/far5"
+                            android:textColor="@color/authui_colorPrimary"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+               </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>

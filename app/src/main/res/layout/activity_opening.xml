@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:components="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.codingclub.tanujyadav.codingclub.OpeningActivity"
+    android:clickable="false">
+
+    <com.codingclub.tanujyadav.codingclub.GIFView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        components:src="@drawable/congratulations" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/ao1"
+        android:src="@drawable/neurons"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy_button"
+        android:textColor="#459bbd"
+        android:textSize="@dimen/ao2"
+        android:textStyle="bold"
+        android:layout_gravity="bottom|center"
+        android:background="?android:attr/selectableItemBackground"
+        android:onClick="open"/>
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_store_mall_directory_24dp"/>
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_today_24dp"
+            android:title="Upcoming Events" />
+        <item
+            android:id="@+id/tutorials"
+            android:icon="@drawable/ic_folder_open_24dp"
+            android:title="Tutorials" />
+        <item
+            android:id="@+id/discussion"
+            android:icon="@drawable/ic_record_voice_over_black_24dp"
+            android:title="Discussion" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/achievements"
+            android:icon="@drawable/ic_trending_up_black_24dp"
+            android:title="Achievements" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info_24dp"
+            android:title="About" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/facebookk"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/mail"
+                android:icon="@drawable/ic_email_24dp"
+                android:title="e-Mail" />
+            <item
+                android:id="@+id/phone"
+                android:icon="@drawable/ic_call_24dp"
+                android:title="Call"/>
+            <item
+                android:id="@+id/locateus"
+                android:icon="@drawable/ic_location_on_24dp"
+                android:title="Locate us"/>
+        </menu>
+    </item>
+
+</menu>

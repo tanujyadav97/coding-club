@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fbf8f8</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="feed_item_bg">#c1cdcd</color>
+    <color name="feed_item_border">#227eaf</color>
+    <color name="link">#0a80d1</color>
+    <color name="reg">#4acabb</color>
+    <color name="timestamp">#f4291f</color>
+</resources>

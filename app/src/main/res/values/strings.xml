@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">dCODERS</string>
+
+
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="dummy_button">goto App;</string>
+    <string name="success"><b>Successfully\n Registered</b></string>
+    <string name="title_activity_main">Home</string>
+    <string name="leaderboard"><u>LEADERBOARD</u></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+<string name="logg">Log out</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string-array name="sites">
+        <item>TutorialsPoint</item>
+        <item>KhanAcademy</item>
+        <item>Coursera</item>
+        <item>Techtutorials.net</item>
+        <item>cProgramming</item>
+        <item>HTML Dog</item>
+        <item>Python Courses</item>
+        <item>aiHorizon</item>
+        <item>Android Developement</item>
+        <item>Oracle</item>
+        <item>iOS App Developement</item>
+        <item>youTube Channels</item>
+
+    </string-array>
+    <string name="title_activity_topics">Topics Covered</string>
+    <string name="title_activity_channels">Channels</string>
+
+    <string-array name="topic1">
+        <item>Java Technologies</item>
+        <item>Programming</item>
+        <item>Web Developement</item>
+        <item>Scripts</item>
+        <item>Big Data and Analytics</item>
+        <item>Digital Marketing</item>
+        <item>SAP</item>
+        <item>Database</item>
+        <item>Mainframe Developement</item>
+        <item>Microsoft Technologies</item>
+        <item>Mobile Developement</item>
+        <item>Telecom</item>
+        <item>XML Technologies</item>
+        <item>Software Quality</item>
+    </string-array>
+    <string-array name="topic2">
+        <item>Algorithms</item>
+        <item>Cryptography</item>
+        <item>Internet</item>
+    </string-array>
+    <string-array name="topic3">
+        <item>Data Science</item>
+        <item>Business Foundations</item>
+        <item>Machine Learning</item>
+        <item>Python</item>
+        <item>Excel to mySQL</item>
+        <item>Functional Programming in Scala</item>
+        <item>Business Analytics</item>
+        <item>Statistics with R</item>
+        <item>Digital Marketing</item>
+        <item>Big Data</item>
+        <item>Full Stack Web Developement</item>
+        <item>Data Structure and Algorithms</item>
+        <item>Java Programming</item>
+        <item>GIS</item>
+        <item>Graphical Design</item>
+        <item>Executive Data Science</item>
+        <item>Interaction Design</item>
+
+
+    </string-array>
+    <string-array name="topic4">
+        <item>Applications</item>
+        <item>Basic Computing</item>
+        <item>BSD</item>
+        <item>Cisco</item>
+        <item>Computer Hardware</item>
+        <item>Database</item>
+        <item>Linux</item>
+        <item>macOS</item>
+        <item>Microsoft Windows</item>
+        <item>Mobile Devices</item>
+        <item>Networking</item>
+        <item>Programming</item>
+        <item>Security</item>
+        <item>Servers</item>
+        <item>UNIX</item>
+        <item>Virtualizations</item>
+        <item>WebMaster</item>
+    </string-array>
+    <string-array name="topic5">
+        <item>C</item>
+        <item>C++</item>
+        <item>openGL</item>
+        <item>STL</item>
+    </string-array>
+    <string-array name="topic6">
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JavaScript</item>
+    </string-array>
+    <string-array name="topic7">
+        <item>Python 1</item>
+        <item>Python 2</item>
+        <item>Python 3</item>
+    </string-array>
+    <string-array name="topic8">
+        <item>General Computer Science</item>
+        <item>List and Arrays</item>
+        <item>Data Trees</item>
+        <item>General Artificial Intelligence</item>
+        <item>Chess Artificial Intelligence</item>
+    </string-array>
+    <string-array name="channels">
+        <item>The New Boston</item>
+        <item>xoaxdotnet</item>
+        <item>phpacademy</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="edit">Edit</string>
+    <string name="get_the_tutorials">Get the Tutorials</string>
+    <string name="app_developed_by">App Developed by</string>
+    <string name="tanuj_yadav">Tanuj Yadav</string>
+    <string name="tanujyadav171997_gmail_com">tanujyadav171997@gmail.com</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send">SEND</string>
+    <string name="problem_of_the_week">PROBLEM OF THE WEEK</string>
+    <string name="solve">Solve</string>
+
+</resources>
